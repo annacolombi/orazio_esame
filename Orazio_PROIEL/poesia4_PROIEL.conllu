@@ -1,0 +1,100 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-proiel-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Exegi monumentum aere perennius regalique situ pyramidum altius, quod non imber edax, non Aquilo impotens possit diruere aut innumerabilis annorum series et fuga temporum.
+1	Exegi	Exegi	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:5
+2	monumentum	monumentum	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	TokenRange=6:16
+3	aere	aes	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	1	obl	_	TokenRange=17:21
+4	perennius	perennus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	2	amod	_	SpacesAfter=\r\n|TokenRange=22:31
+5	regalique	regalique	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	TokenRange=33:42
+6	situ	situs	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	4	obl	_	TokenRange=43:47
+7	pyramidum	pyramidus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	TokenRange=48:57
+8	altius,	altiusus	ADJ	A-	Case=Acc|Degree=Cmp|Gender=Neut|Number=Sing	2	amod	_	SpacesAfter=\r\n|TokenRange=58:65
+9	quod	qui	SCONJ	Pr	_	16	mark	_	TokenRange=67:71
+10	non	non	ADV	Df	Polarity=Neg	16	advmod	_	TokenRange=72:75
+11	imber	imber	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	TokenRange=76:81
+12	edax,	edo	VERB	V-	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	TokenRange=82:87
+13	non	non	ADV	Df	Polarity=Neg	16	advmod	_	TokenRange=88:91
+14	Aquilo	aquilo	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	12	obl	_	TokenRange=92:98
+15	impotens	impotens	ADJ	A-	Case=Nom|Degree=Pos|Number=Sing	16	advcl	_	SpacesAfter=\r\n|TokenRange=99:107
+16	possit	possum	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	TokenRange=109:115
+17	diruere	diro	VERB	V-	Tense=Pres|VerbForm=Inf|Voice=Act	16	xcomp	_	TokenRange=116:123
+18	aut	aut	CCONJ	C-	_	21	cc	_	TokenRange=124:127
+19	innumerabilis	innumerabilis	ADJ	A-	Case=Nom|Degree=Pos|Gender=Fem,Masc|Number=Sing	20	amod	_	SpacesAfter=\r\n\s\r\n|TokenRange=128:141
+20	annorum	annus	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	TokenRange=146:153
+21	series	series	NOUN	Nb	Case=Acc|Gender=Fem|Number=Plur	17	obj	_	TokenRange=154:160
+22	et	et	CCONJ	C-	_	23	cc	_	TokenRange=161:163
+23	fuga	fuga	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	21	conj	_	TokenRange=164:168
+24	temporum.	tempoum	NOUN	Nb	Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	SpacesAfter=\r\n|TokenRange=169:178
+
+# sent_id = 2
+# text = Non omnis moriar multaque pars mei vitabit Libitinam: usque ego postera crescam laude recens, dum Capitolium scandet cum tacita virgine Pontifex.
+1	Non	non	ADV	Df	Polarity=Neg	3	advmod	_	TokenRange=180:183
+2	omnis	omnis	DET	Px	Case=Nom|Gender=Masc|Number=Sing	5	det	_	TokenRange=184:189
+3	moriar	morior	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	7	advcl	_	TokenRange=190:196
+4	multaque	multaque	ADV	Df	_	5	amod	_	TokenRange=197:205
+5	pars	pars	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	TokenRange=206:210
+6	mei	meus	DET	Ps	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes	5	det	_	SpacesAfter=\r\n|TokenRange=211:214
+7	vitabit	vito	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=216:223
+8	Libitinam:	Libitinamus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	obj	_	TokenRange=224:234
+9	usque	usque	ADV	Df	_	10	advmod	_	TokenRange=235:240
+10	ego	ego	PRON	Pp	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	TokenRange=241:244
+11	postera	posterus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	SpacesAfter=\r\n|TokenRange=245:252
+12	crescam	cresco	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	TokenRange=254:261
+13	laude	laus	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	14	obl	_	TokenRange=262:267
+14	recens,	recenseo	VERB	V-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	advcl	_	TokenRange=268:275
+15	dum	dum	SCONJ	G-	_	17	mark	_	TokenRange=276:279
+16	Capitolium	Capitolium	PROPN	Ne	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	SpacesAfter=\r\n\s\r\n|TokenRange=280:290
+17	scandet	scando	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	TokenRange=295:302
+18	cum	cum	ADP	R-	_	20	case	_	TokenRange=303:306
+19	tacita	tacitus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	TokenRange=307:313
+20	virgine	virgo	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	21	obl	_	TokenRange=314:321
+21	Pontifex.	pontifego	VERB	V-	Case=Nom|Gender=Masc|Number=Sing	17	advcl	_	SpacesAfter=\r\n|TokenRange=322:331
+
+# sent_id = 3
+# text = Dicar qua violens obstrepit
+1	Dicar	dicor	VERB	V-	Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Pass	0	root	_	TokenRange=333:338
+2	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	4	advcl	_	TokenRange=339:342
+3	violens	violo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	advcl	_	TokenRange=343:350
+4	obstrepit	obstripio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	TokenRange=351:360
+
+# sent_id = 4
+# text = Aufidus et qua pauper aquae Daunus agrestium regnavit populorum, ex humili potens, princeps Aeolium carmen ad Italos deduxisse modos.
+1	Aufidus	Aufidus	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	SpacesAfter=\r\n|TokenRange=361:368
+2	et	et	CCONJ	C-	_	8	cc	_	TokenRange=370:372
+3	qua	qui	PRON	Pr	Case=Abl|Gender=Fem|Number=Sing|PronType=Rel	8	advcl	_	TokenRange=373:376
+4	pauper	pauper	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	TokenRange=377:383
+5	aquae	aqua	NOUN	Nb	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	TokenRange=384:389
+6	Daunus	Daunus	PROPN	Ne	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	TokenRange=390:396
+7	agrestium	agrestis	ADJ	A-	Case=Acc|Degree=Pos|Gender=Masc,Neut|Number=Sing	6	amod	_	SpacesAfter=\r\n|TokenRange=397:406
+8	regnavit	regno	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=408:416
+9	populorum,	populoum	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	TokenRange=417:427
+10	ex	ex	ADP	R-	_	12	case	_	TokenRange=428:430
+11	humili	humilis	ADJ	A-	Case=Abl|Degree=Pos|Number=Sing	12	advmod	_	TokenRange=431:437
+12	potens,	potssum	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	advcl	_	SpacesAfter=\r\n\s\r\n|TokenRange=438:445
+13	princeps	princeps	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=450:458
+14	Aeolium	Aeolius	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	18	nsubj	_	TokenRange=459:466
+15	carmen	carmen	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	18	obj	_	TokenRange=467:473
+16	ad	ad	ADP	R-	_	17	case	_	TokenRange=474:476
+17	Italos	Itali	NOUN	Nb	Case=Acc|Gender=Masc|Number=Plur	18	obl	_	SpacesAfter=\r\n|TokenRange=477:483
+18	deduxisse	deduco	VERB	V-	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	8	ccomp	_	TokenRange=485:494
+19	modos.	modos.	ADV	Df	_	18	advmod	_	TokenRange=495:501
+
+# sent_id = 5
+# text = Sume superbiam quaesitam meritis et mihi Delphica lauro cinge volens, Melpomene, comam.
+1	Sume	sume	VERB	V-	_	12	discourse	_	TokenRange=502:506
+2	superbiam	superbia	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	SpacesAfter=\r\n|TokenRange=507:516
+3	quaesitam	quaeso	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	2	acl	_	TokenRange=518:527
+4	meritis	meritum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Plur	3	obl	_	TokenRange=528:535
+5	et	et	CCONJ	C-	_	9	cc	_	TokenRange=536:538
+6	mihi	ego	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	9	obl:arg	_	TokenRange=539:543
+7	Delphica	Delphicus	ADJ	A-	Case=Abl|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	SpacesAfter=\r\n|TokenRange=544:552
+8	lauro	laurus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	9	nsubj	_	TokenRange=554:559
+9	cinge	cingo	VERB	V-	Case=Abl|Gender=Fem|Number=Sing	4	conj	_	TokenRange=560:565
+10	volens,	volo	VERB	V-	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	12	advcl	_	TokenRange=566:573
+11	Melpomene,	Melpomene,	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	TokenRange=574:584
+12	comam.	comam.	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\n\r\n|TokenRange=585:591
+

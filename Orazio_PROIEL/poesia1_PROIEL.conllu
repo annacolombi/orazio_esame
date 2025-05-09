@@ -1,0 +1,105 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-proiel-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poscimus, si quid vacui sub umbra lusimus tecum, quod et hunc in annum vivat et pluris, age dic Latinum, barbite, carmen,
+1	Poscimus,	poscio	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:9
+2	si	si	SCONJ	G-	_	7	mark	_	TokenRange=10:12
+3	quid	quis	PRON	Px	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	TokenRange=13:17
+4	vacui	vacuus	ADJ	A-	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	advcl	_	TokenRange=18:23
+5	sub	sub	ADP	R-	_	6	case	_	TokenRange=24:27
+6	umbra	umbra	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	7	obl	_	SpacesAfter=\r\n|TokenRange=28:33
+7	lusimus	us	VERB	V-	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	TokenRange=35:42
+8	te	tu	PRON	Pp	Case=Abl|Gender=Masc|Number=Sing|Person=2|PronType=Prs	7	obl	_	SpaceAfter=No|TokenRange=43:45
+9	cum,	cum,	ADP	R-	_	8	case	_	TokenRange=45:49
+10	quod	qui	PRON	Pr	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	15	nsubj	_	TokenRange=50:54
+11	et	et	CCONJ	C-	_	15	cc	_	TokenRange=55:57
+12	hunc	hic	PRON	Pd	Case=Acc|Gender=Masc|Number=Sing	15	obj	_	TokenRange=58:62
+13	in	in	ADP	R-	_	14	case	_	TokenRange=63:65
+14	annum	annus	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	15	obl	_	SpacesAfter=\r\n|TokenRange=66:71
+15	vivat	vivo	VERB	V-	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	TokenRange=73:78
+16	et	et	CCONJ	C-	_	18	cc	_	TokenRange=79:81
+17	pluris,	murltus	ADJ	A-	Case=Gen|Degree=Cmp|Gender=Neut|Number=Sing	18	advmod	_	TokenRange=82:89
+18	age	ago	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	TokenRange=90:93
+19	dic	dico	VERB	V-	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=94:97
+20	Latinum,	Latinum,	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	SpacesAfter=\r\n|TokenRange=98:106
+21	barbite,	barbites	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	19	xcomp	_	TokenRange=108:116
+22	carmen,	carmen,	NOUN	Nb	Case=Acc|Gender=Neut|Number=Sing	19	obj	_	SpacesAfter=\r\n\r\n|TokenRange=117:124
+
+# newpar
+# sent_id = 2
+# text = Lesbio primum modulate civi, qui ferox bello tamen inter arma, sive iactatam religarat udo litore navim,
+1	Lesbio	Lesbius	PROPN	Ne	Case=Dat|Gender=Masc|Number=Sing	3	nsubj	_	TokenRange=128:134
+2	primum	primum	ADV	Df	_	3	advmod	_	TokenRange=135:141
+3	modulate	modulo	VERB	V-	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=142:150
+4	civi,	civi,	NOUN	Nb	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	SpacesAfter=\r\n|TokenRange=151:156
+5	qui	qui	PRON	Pr	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	13	nsubj	_	TokenRange=158:161
+6	ferox	ferox	ADJ	A-	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	obj	_	TokenRange=162:167
+7	bello	bellum	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	13	obl	_	TokenRange=168:173
+8	tamen	tamen	ADV	Df	_	13	discourse	_	TokenRange=174:179
+9	inter	inter	ADP	R-	_	10	case	_	TokenRange=180:185
+10	arma,	arma	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	13	obl	_	SpacesAfter=\r\n|TokenRange=186:191
+11	sive	sive	CCONJ	C-	_	12	cc	_	TokenRange=193:197
+12	iactatam	iacto	VERB	V-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	conj	_	TokenRange=198:206
+13	religarat	religo	VERB	V-	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	4	acl	_	TokenRange=207:216
+14	udo	udo	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc,Neut|Number=Sing	15	amod	_	SpacesAfter=\r\n|TokenRange=217:220
+15	litore	litus	NOUN	Nb	Case=Abl|Gender=Neut|Number=Sing	13	obl	_	TokenRange=222:228
+16	navim,	navimus	NOUN	Nb	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	SpacesAfter=\r\n\r\n|TokenRange=229:235
+
+# newpar
+# sent_id = 3
+# text = Liberum et Musas Veneremque et illi semper haerentem puerum canebat et Lycum
+1	Liberum	Liberus	PROPN	Ne	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	TokenRange=239:246
+2	et	et	CCONJ	C-	_	3	cc	_	TokenRange=247:249
+3	Musas	Musas	PROPN	Ne	Case=Acc|Gender=Fem|Number=Plur	1	conj	_	TokenRange=250:255
+4	Veneremque	veneremquis	ADV	Df	_	1	appos	_	TokenRange=256:266
+5	et	et	CCONJ	C-	_	6	cc	_	TokenRange=267:269
+6	illi	ille	PRON	Pd	Case=Dat|Gender=Masc|Number=Sing	8	obl:arg	_	SpacesAfter=\r\n|TokenRange=270:274
+7	semper	semper	ADV	Df	_	8	advmod	_	TokenRange=276:282
+8	haerentem	haereo	VERB	V-	Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	1	conj	_	TokenRange=283:292
+9	puerum	puer	NOUN	Nb	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	TokenRange=293:299
+10	canebat	cano	VERB	V-	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=300:307
+11	et	et	CCONJ	C-	_	12	cc	_	TokenRange=309:311
+12	Lycum	Lycus	PROPN	Ne	Case=Acc|Gender=Fem|Number=Sing	1	conj	_	TokenRange=312:317
+
+# sent_id = 4
+# text = nigris oculis nigroque crine decorum.
+1	nigris	niger	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Plur	2	amod	_	TokenRange=318:324
+2	oculis	oculus	NOUN	Nb	Case=Abl|Gender=Masc|Number=Plur	5	obl	_	TokenRange=325:331
+3	nigroque	nigroque	ADJ	A-	Case=Abl|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	SpacesAfter=\r\n|TokenRange=332:340
+4	crine	crine	NOUN	Nb	Case=Abl|Gender=Masc|Number=Sing	5	obl	_	TokenRange=342:347
+5	decorum.	decoro	VERB	V-	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpacesAfter=\r\n\r\n|TokenRange=348:356
+
+# newpar
+# sent_id = 5
+# text = O decus Phoebi et dapibus supremi grata
+1	O	o	INTJ	I-	_	2	discourse	_	TokenRange=360:361
+2	decus	decus	ADJ	A-	_	0	root	_	TokenRange=362:367
+3	Phoebi	Phoebius	PROPN	Ne	Case=Voc|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=368:374
+4	et	et	CCONJ	C-	_	5	cc	_	TokenRange=375:377
+5	dapibus	dapis	NOUN	Nb	Case=Abl|Gender=Fem|Number=Plur	3	conj	_	TokenRange=378:385
+6	supremi	supremus	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Plur	5	amod	_	SpacesAfter=\r\n|TokenRange=386:393
+7	grata	gratus	ADJ	A-	Case=Acc|Degree=Pos|Gender=Neut|Number=Plur	2	conj	_	TokenRange=395:400
+
+# sent_id = 6
+# text = testudo Iovis,
+1	testudo	testudo	NOUN	Nb	Case=Nom|Gender=Fem|Number=Sing	0	root	_	TokenRange=401:408
+2	Iovis,	Iouppiter	PROPN	Ne	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=409:415
+
+# sent_id = 7
+# text = o laborum dulce lenimen mihi
+1	o	o	INTJ	I-	_	0	root	_	TokenRange=416:417
+2	laborum	labor	NOUN	Nb	Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpacesAfter=\r\n|TokenRange=418:425
+3	dulce	dulcis	ADJ	A-	Case=Voc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	TokenRange=427:432
+4	lenimen	lenimen	NOUN	Nb	Case=Nom|Gender=Neut|Number=Sing	1	vocative	_	TokenRange=433:440
+5	mihi	ego	PRON	Pp	Case=Dat|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	orphan	_	TokenRange=441:445
+
+# sent_id = 8
+# text = cumque salve rite vocanti.
+1	cumque	cumque	ADP	G-	_	2	case	_	TokenRange=446:452
+2	salve	salveo	ADV	Df	Degree=Pos	4	advmod	_	SpacesAfter=\r\n|TokenRange=453:458
+3	rite	rites	NOUN	Nb	Case=Abl|Gender=Fem|Number=Sing	4	obl	_	TokenRange=460:464
+4	vocanti.	voco	VERB	V-	Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	SpacesAfter=\r\n|TokenRange=465:473
+
