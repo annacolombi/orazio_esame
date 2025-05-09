@@ -6,3 +6,4 @@ The folders contain the annotations, respectively, of:
 	•	Horace Stanza: annotated using the Stanza model via a Google Colab script
 
 The annotations were performed using the online UDPipe tool for the first two models, and a Google Colab script for Stanza.
+The .txt files of the corresponding poems are also included.
