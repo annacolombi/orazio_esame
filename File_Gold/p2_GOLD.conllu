@@ -1,0 +1,90 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Tu ne quaesieris, scire nefas, quem mihi, quem tibi finem di dederint, Leuconoe, nec Babylonios temptaris numeros.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-perseus-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+1	Tu	tu	PRON	p-s---mn-	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	TokenRange=0:2
+2	ne	ne	SCONJ	c--------	_	3	mark	_	TokenRange=3:5
+3	quaesieris	quaero	VERB	v2stia---	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=6:16
+4	,	,	PUNCT	u--------	_	5	punct	_	TokenRange=16:17
+5	scire	scio	VERB	v--pna---	Aspect=Imp|VerbForm=Inf|Voice=Act	3	appos	_	TokenRange=18:23
+6	nefas	nefas	VERB	v2spia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	obj	_	SpaceAfter=No|TokenRange=24:29
+7	,	,	PUNCT	u--------	_	6	punct	_	TokenRange=29:30
+8	quem	qui	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	15	obj	_	TokenRange=31:35
+9	mihi	ego	PRON	p-s---md-	Case=Dat|Number=Sing|Person=1|PronType=Prs	15	iobj	_	SpaceAfter=No|TokenRange=36:40
+10	,	,	PUNCT	u--------	_	15	punct	_	TokenRange=40:41
+11	quem	qui	PRON	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Rel	15	obj	_	TokenRange=42:46
+12	tibi	tu	PRON	p-s---md-	Case=Dat|Number=Sing|Person=2|PronType=Prs	15	iobj	_	TokenRange=47:51
+13	finem	finis	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	appos	_	TokenRange=52:57
+14	di	deus	NOUN	n-p---mn-	Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	TokenRange=58:60
+15	dederint	do	VERB	v3prsa---	Aspect=Perf|Mood=Sub|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No|TokenRange=61:69
+16	,	,	PUNCT	u--------	_	17	punct	_	TokenRange=69:70
+17	Leuconoe	Leucono	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	15	vocative	_	SpaceAfter=No|TokenRange=71:79
+18	,	,	PUNCT	u--------	_	21	punct	_	TokenRange=79:80
+19	nec	neque	ADV	d--------	_	21	advmod	_	_
+20	Babylonios	babylonius	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	22	amod	_	TokenRange=85:95
+21	temptaris	temptor	VERB	v2spia---	Aspect=Perf|Mood=Sub|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	TokenRange=96:105
+22	numeros	numerus	NOUN	n-p---ma-	Case=Acc|Gender=Masc|Number=Plur	21	obj	_	SpaceAfter=No|TokenRange=106:113
+23	.	.	PUNCT	u--------	_	21	punct	_	TokenRange=113:114
+
+# sent_id = 2
+# text = Ut melius, quidquid erit, pati!
+1	Ut	ut	SCONJ	c--------	_	7	mark	_	TokenRange=115:117
+2	melius	bonus	ADV	d-------c	Degree=Cmp	7	advmod	_	SpaceAfter=No|TokenRange=118:124
+3	,	,	PUNCT	u--------	_	4	punct	_	TokenRange=124:125
+4	quidquid	quisquis	PRON	p-s---nn-	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	7	ccomp	_	TokenRange=126:134
+5	erit	sum	AUX	v3sfia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	4	cop	_	SpaceAfter=No|TokenRange=135:139
+6	,	,	PUNCT	u--------	_	4	punct	_	TokenRange=139:140
+7	pati	patior	VERB	v--pnp---	Aspect=Imp|VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No|TokenRange=141:145
+8	!	!	PUNCT	u--------	_	7	punct	_	TokenRange=145:146
+
+# sent_id = 3
+# text = Seu pluris hiemes seu tribuit Iuppiter ultimam, quae nunc oppositis debilitat pumicibus mare Tyrrhenum, sapias: vina liques et spatio brevi spem longam reseces.
+1	Seu	sive	CCONJ	c--------	_	5	cc	_	TokenRange=147:150
+2	pluris	multus	DET	a-p---fa-	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	3	det	_	TokenRange=151:157
+3	hiemes	hiem(p)s	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	5	obj	_	TokenRange=158:164
+4	seu	sive	CCONJ	c--------	_	5	cc	_	TokenRange=165:168
+5	tribuit	tribuo	VERB	v3sria---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	17	advcl	_	TokenRange=169:176
+6	Iuppiter	Iuppiter	PROPN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=177:185
+7	ultimam	ultimus	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	5	orphan	_	SpaceAfter=No|TokenRange=186:193
+8	,	,	PUNCT	u--------	_	12	punct	_	TokenRange=193:194
+9	quae	qui	PRON	p-s---fn-	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	12	nsubj	_	TokenRange=195:199
+10	nunc	nunc	ADV	d--------	AdvType=Tim	12	advmod:tmod	_	TokenRange=200:204
+11	oppositis	oppono	VERB	v-prppmb-	Aspect=Perf|Case=Abl|Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	13	acl	_	TokenRange=205:214
+12	debilitat	debilito	VERB	v3spia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	TokenRange=215:224
+13	pumicibus	pumex	NOUN	n-p---mb-	Case=Dat|Gender=Masc|Number=Plur	12	obl	_	TokenRange=225:234
+14	mare	mare	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	TokenRange=235:239
+15	Tyrrhenum	Tyrrhenus	ADJ	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No|TokenRange=240:249
+16	,	,	PUNCT	u--------	_	17	punct	_	TokenRange=249:250
+17	sapias	sapio	VERB	v2spia---	Case=Acc|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No|TokenRange=251:257
+18	:	:	PUNCT	u--------	_	20	punct	_	TokenRange=257:258
+19	vina	vinum	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	20	obj	_	TokenRange=259:263
+20	liques	liqueo	VERB	n-p---ma-	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	TokenRange=264:270
+21	et	et	CCONJ	c--------	_	26	cc	_	TokenRange=271:273
+22	spatio	spatium	NOUN	n-s---nb-	Case=Abl|Gender=Neut|Number=Sing	26	obl	_	TokenRange=274:280
+23	brevi	brevis	ADJ	a-s---nb-	Case=Abl|Gender=Neut|Number=Sing	22	amod	_	TokenRange=281:286
+24	spem	spes	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	TokenRange=287:291
+25	longam	longus	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	TokenRange=292:298
+26	reseces	reseco	VERB	v2spia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	20	conj	_	SpaceAfter=No|TokenRange=299:306
+27	.	.	PUNCT	u--------	_	17	punct	_	TokenRange=306:307
+
+# sent_id = 5
+# text = Dum loquimur, fugerit invida aetas: carpe diem, quam minimum credula postero.
+1	Dum	dum	SCONJ	c--------	_	2	mark	_	TokenRange=308:311
+2	loquimur	loquor	VERB	L3|modJ|tem1|gen7	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	4	advcl	_	SpaceAfter=No|TokenRange=312:320
+3	,	,	PUNCT	u--------	_	2	punct	_	TokenRange=320:321
+4	fugerit	fugio	VERB	v3srsa---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=322:329
+5	invida	invidus	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	TokenRange=330:336
+6	aetas	aetas	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No|TokenRange=337:342
+7	:	:	PUNCT	u--------	_	8	punct	_	TokenRange=342:343
+8	carpe	carpo	VERB	v2spma---	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	TokenRange=344:349
+9	diem	dies	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	SpaceAfter=No|TokenRange=350:354
+10	,	,	PUNCT	u--------	_	13	punct	_	TokenRange=354:355
+11	quam	quam	ADV	d--------	_	12	advmod	_	TokenRange=356:360
+12	minimum	parvus	ADJ	d-------s	Degree=Abs	13	amod	_	TokenRange=361:368
+13	credula	credulus	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	8	advmod	_	TokenRange=369:376
+14	postero	poster	ADJ	d--------	Case=Dat|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No|TokenRange=377:383
+15	.	.	PUNCT	u--------	_	4	punct	_	SpaceAfter=No|TokenRange=383:384
+

@@ -1,0 +1,97 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Poscimus, si quid vacui sub umbra lusimus tecum, quod et hunc in annum vivat et pluris, age dic Latinum, barbite, carmen,  Lesbio primum modulate civi, qui ferox bello tamen inter arma, sive iactatam religarat udo litore navim,  Liberum et Musas Veneremque et illi semper haerentem puerum canebat et Lycum nigris oculis nigroque crine decorum.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-perseus-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+1	Poscimus	posco	VERB	v1ppia---	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=0:8
+2	,	,	PUNCT	u--------	_	3	punct	_	TokenRange=8:9
+3	si	si	SCONJ	c--------	_	8	mark	_	TokenRange=10:12
+4	quid	quis	PRON	p-s---na-	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	8	obj	_	TokenRange=13:17
+5	vacui	vacuus	ADJ	a-s---ng-	Case=Gen|Gender=Neut|Number=Sing	4	amod	_	TokenRange=18:23
+6	sub	sub	ADP	r--------	_	7	case	_	TokenRange=24:27
+7	umbra	umbra	NOUN	n-s---fb-	Case=Abl|Gender=Fem|Number=Sing	8	obl	_	SpacesAfter= \n|TokenRange=28:33
+8	lusimus	lusum	VERB	v1ppia---	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	TokenRange=35:42
+9-10	tecum	_	_	_	_	_	_	_	SpaceAfter=No|TokenRange=43:48
+9	te	tu	PRON	p-s---mb-	Case=Abl|Number=Sing|Person=2|PronType=Prs	8	obl	_	_
+10	cum	cum	ADP	_	AdpType=Post	9	case	_	_
+11	,	,	PUNCT	u--------	_	12	punct	_	TokenRange=48:49
+12	quod	quod	PRON	c--------	Case=Nom|Gender=Fem|Number=Sing|PronType=Rel	17	nsubj	_	TokenRange=50:54
+13	et	et	CCONJ	c--------	_	17	cc	_	TokenRange=55:57
+14	hunc	hic	DET	p-s---ma-	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	16	det	_	TokenRange=58:62
+15	in	in	ADP	r--------	_	16	case	_	TokenRange=63:65
+16	annum	annus	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	17	obl	_	SpacesAfter= \n|TokenRange=66:71
+17	vivat	vivo	VERB	v3spsa---	Aspect=Imp|Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	TokenRange=73:78
+18	et	et	CCONJ	c--------	_	19	cc	_	TokenRange=79:81
+19	pluris	multus	DET	a-p---nac	Case=Gen|Degree=Cmp|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|TokenRange=82:88
+20	,	,	PUNCT	u--------	_	17	punct	_	TokenRange=88:89
+21	age	age	INTJ	v2spma---	_	22	discourse	_	TokenRange=90:93
+22	dic	dico	VERB	v2spma---	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	TokenRange=94:97
+23	Latinum	Latinus	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	27	amod	_	SpaceAfter=No|TokenRange=98:105
+24	,	,	PUNCT	u--------	_	25	punct	_	SpacesAfter= \n|TokenRange=105:106
+25	barbite	barbitus	VERB	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	22	vocative	_	SpaceAfter=No|TokenRange=108:115
+26	,	,	PUNCT	u--------	_	27	punct	_	TokenRange=115:116
+27	carmen	carmen	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No|TokenRange=117:123
+28	,	,	PUNCT	u--------	_	31	punct	_	SpacesAfter= \n \n|TokenRange=123:124
+29	Lesbio	Lesbius	PROPN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	32	obl:lmod	_	TokenRange=128:134
+30	primum	primus	ADV	d--------	_	31	advmod	_	TokenRange=135:141
+31	modulate	modulo	VERB	v2ppma---	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	TokenRange=142:150
+32	civi	civis	NOUN	n-s---md-	Case=Abl|Gender=Masc|Number=Sing	31	obl	_	SpaceAfter=No|TokenRange=151:155
+33	,	,	PUNCT	u--------	_	34	punct	_	SpacesAfter= \n|TokenRange=155:156
+34	qui	qui	PRON	p-s---mn-	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	57	nsubj	_	TokenRange=158:161
+35	ferox	ferox	ADJ	a-s---mn-	Case=Acc|Gender=Neut|Number=Sing	34	conj	_	TokenRange=162:167
+36	bello	bellum	NOUN	n-s---nb-	Case=Abl|Gender=Neut|Number=Sing	35	obl	_	TokenRange=168:173
+37	tamen	tamen	ADV	d--------	_	43	advmod	_	TokenRange=174:179
+38	inter	inter	ADP	r--------	_	39	case	_	TokenRange=180:185
+39	arma	arma	NOUN	n-p---na-	Case=Acc|Gender=Neut|Number=Plur	32	conj	_	SpaceAfter=No|TokenRange=186:190
+40	,	,	PUNCT	u--------	_	41	punct	_	SpacesAfter= \n|TokenRange=190:191
+41	sive	sive	CCONJ	c--------	_	43	cc	_	TokenRange=193:197
+42	iactatam	iacto	VERB	v-srppfa-	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	46	acl	_	TokenRange=198:206
+43	religarat	religo	VERB	v3slia---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	32	advcl	_	TokenRange=207:216
+44	udo	udo	ADP	r--------	_	45	case	_	SpacesAfter= \n|TokenRange=217:220
+45	litore	litus	NOUN	n-s---nb-	Case=Abl|Gender=Neut|Number=Sing	43	obl	_	TokenRange=222:228
+46	navim	navis	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	43	obj	_	SpaceAfter=No|TokenRange=229:234
+47	,	,	PUNCT	u--------	_	48	punct	_	SpacesAfter= \n \n|TokenRange=234:235
+48	Liberum	liber	ADJ	a-s---ma-	Case=Acc|Gender=Masc|Number=Sing	57	obj	_	TokenRange=239:246
+49	et	et	CCONJ	c--------	_	50	cc	_	TokenRange=247:249
+50	Musas	musa	NOUN	n-p---fa-	Case=Acc|Gender=Fem|Number=Plur	48	conj	_	TokenRange=250:255
+51	Veneremque	Veneremque	ADJ	d--------	_	57	advmod	_	TokenRange=256:266
+52	et	et	CCONJ	c--------	_	53	cc	_	TokenRange=267:269
+53	illi	ille	DET	p-s---md-	Case=Dat|Gender=Masc|Number=Sing|PronType=Dem	55	obl	_	SpacesAfter= \n|TokenRange=270:274
+54	semper	semper	ADV	d--------	AdvType=Tim	57	advmod:tmod	_	TokenRange=276:282
+55	haerentem	haereo	VERB	v-sppama-	Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	56	amod	_	TokenRange=283:292
+56	puerum	puer	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	57	obj	_	TokenRange=293:299
+57	canebat	cano	VERB	v3siia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	31	acl:relcl	_	SpacesAfter= \n|TokenRange=300:307
+58	et	et	CCONJ	c--------	_	64	cc	_	TokenRange=309:311
+59	Lycum	lycus	PROPN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	64	obj	_	TokenRange=312:317
+60	nigris	niger	ADJ	a-p---mb-	Case=Abl|Gender=Masc|Number=Plur	61	amod	_	TokenRange=318:324
+61	oculis	oculus	NOUN	n-p---mb-	Case=Abl|Gender=Masc|Number=Plur	64	obl	_	TokenRange=325:331
+62	nigroque	nigro	ADJ	a-s---mb-	Case=Abl|Gender=Masc|Number=Sing	61	amod	_	SpacesAfter= \n|TokenRange=332:340
+63	crine	crinus	NOUN	n-s---mb-	Case=Abl|Gender=Masc|Number=Sing	64	obl	_	TokenRange=342:347
+64	decorum	decorus	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	57	conj	_	SpaceAfter=No|TokenRange=348:355
+65	.	.	PUNCT	u--------	_	57	punct	_	SpacesAfter= \n \n|TokenRange=355:356
+
+# sent_id = 2-bis
+# text = O decus Phoebi et dapibus supremi grata testudo Iovis, o laborum dulce lenimen mihi cumque salve rite vocanti.
+1	O	o	INTJ	e--------	_	2	discourse	_	TokenRange=360:361
+2	decus	decus	NOUN	n-s---na-	Case=Acc|Gender=Neut|Number=Sing	19	vocative	_	TokenRange=362:367
+3	Phoebi	Phoebus	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	TokenRange=368:374
+4	et	et	CCONJ	c--------	_	5	cc	_	TokenRange=375:377
+5	dapibus	dapis	NOUN	n-p---md-	Case=Dat|Gender=Masc|Number=Plur	2	conj	_	TokenRange=378:385
+6	supremi	superior	ADJ	a-s---mg-	Case=Gen|Degree=Abs|Gender=Masc|Number=Sing	5	amod	_	SpacesAfter= \n|TokenRange=386:393
+7	grata	gratus	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	8	amod	_	TokenRange=395:400
+8	testudo	testudo	NOUN	n-s---fn-	Case=Nom|Gender=Fem|Number=Sing	2	conj	_	TokenRange=401:408
+9	Iovis	Iuppiter	PROPN	n-s---mg-	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No|TokenRange=409:414
+10	,	,	PUNCT	u--------	_	14	punct	_	TokenRange=414:415
+11	o	o	INTJ	e--------	_	14	discourse	_	TokenRange=416:417
+12	laborum	labor	NOUN	n-p---mg-	Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	SpacesAfter= \n|TokenRange=418:425
+13	dulce	dulcis	ADJ	a-s---na-	Case=Acc|Gender=Neut|Number=Sing	12	amod	_	TokenRange=427:432
+14	lenimen	lenimen	NOUN	n-s---na-	Case=Nom|Gender=Neut|Number=Sing	19	vocative	_	TokenRange=433:440
+15	mihi	ego	PRON	p-s---md-	Case=Dat|Number=Sing|Person=1|PronType=Prs	19	obl	_	TokenRange=441:445
+16	cumque	cumque	ADP	_	_	19	case	_	TokenRange=446:452
+17	salve	salvus	ADJ	d--------	Case=Abl|Gender=Fem|Number=Sing	18	amod	_	SpacesAfter= \n|TokenRange=453:458
+18	rite	ris	NOUN	n-s---mb-	Case=Abl|Gender=Masc|Number=Sing	19	obl	_	TokenRange=460:464
+19	vocanti	voco	VERB	v-spp-md-	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=465:472
+20	.	.	PUNCT	u--------	_	19	punct	_	SpacesAfter= \n|TokenRange=472:473
+

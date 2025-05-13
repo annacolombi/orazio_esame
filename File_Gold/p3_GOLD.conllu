@@ -1,0 +1,74 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Vitas inuleo me similis, Chloe, quaerenti pavidam montibus aviis matrem non sine vano aurarum et siluae metu.
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = latin-perseus-ud-2.15-241121
+# udpipe_model_licence = CC BY-NC-SA
+1	Vitas	Vito	VERB	n-p---fa-	Aspect=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	TokenRange=0:5
+2	inuleo	inuleus	NOUN	v1spia---	Case=Dat|Gender=Masc|Number=Sing	1	nmod	_	TokenRange=6:12
+3	me	ego	PRON	p-s---ma-	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	TokenRange=13:15
+4	similis	similis	ADJ	a-s---fn-	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No|TokenRange=16:23
+5	,	,	PUNCT	u--------	_	4	punct	_	TokenRange=23:24
+6	Chloe	Chloe	PROPN	n-s---mv-	Case=Voc|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No|TokenRange=25:30
+7	,	,	PUNCT	u--------	_	8	punct	_	SpacesAfter=\r\n|TokenRange=30:31
+8	quaerenti	quaero	VERB	v-spp-md-	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	2	acl	_	TokenRange=33:42
+9	pavidam	pavidus	ADJ	a-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	TokenRange=43:50
+10	montibus	mons	NOUN	n-p---mb-	Case=Abl|Gender=Masc|Number=Plur	8	obl	_	TokenRange=51:59
+11	aviis	avius	ADJ	n-p---fb-	Case=Abl|Gender=Masc|Number=Plur	10	amod	_	SpacesAfter=\r\n|TokenRange=60:65
+12	matrem	mater	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	8	obj	_	TokenRange=67:73
+13	non	non	PART	d--------	_	19	advmod:neg	_	TokenRange=74:77
+14	sine	sine	ADP	r--------	_	19	case	_	TokenRange=78:82
+15	vano	vanus	ADJ	a-s---mb-	Case=Abl|Gender=Masc|Number=Sing	19	amod	_	SpacesAfter=\r\n|TokenRange=83:87
+16	aurarum	aura	NOUN	n-p---fg-	Case=Gen|Gender=Fem|Number=Plur	19	obl	_	TokenRange=89:96
+17	et	et	CCONJ	c--------	_	18	cc	_	TokenRange=97:99
+18	siluae	silvus	NOUN	n-s---fg-	Case=Gen|Gender=Fem|Number=Sing	16	conj	_	TokenRange=100:106
+19	metu	metus	NOUN	n-s---mb-	Case=Abl|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No|TokenRange=107:111
+20	.	.	PUNCT	u--------	_	1	punct	_	SpacesAfter=\r\n\r\n|TokenRange=111:112
+
+# newpar
+# sent_id = 2
+# text = Nam seu mobilibus veris inhorruit adventus foliis seu virides rubum dimovere lacertae, et corde et genibus tremit.
+1	Nam	nam	PART	c--------	_	5	discourse	_	TokenRange=116:119
+2	seu	sive	CCONJ	c--------	_	5	cc	_	TokenRange=120:123
+3	mobilibus	mobilis	ADJ	a-p---nb-	Case=Abl|Gender=Neut|Number=Plur	7	nmod	_	TokenRange=124:133
+4	veris	ver	NOUN	a-p---nb-	Case=Gen|Gender=Neut|Number=Sing	6	amod	_	TokenRange=134:139
+5	inhorruit	inhorresco	VERB	v3sria---	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	SpacesAfter=\r\n|TokenRange=140:149
+6	adventus	adventus	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	TokenRange=151:159
+7	foliis	folium	NOUN	n-p---nb-	Case=Abl|Gender=Neut|Number=Plur	5	obl	_	TokenRange=160:166
+8	seu	sive	CCONJ	c--------	_	11	cc	_	TokenRange=167:170
+9	virides	viridis	ADJ	a-p---ma-	Case=Acc|Gender=Masc|Number=Plur	12	amod	_	TokenRange=171:178
+10	rubum	rubus	NOUN	n-s---ma-	Case=Acc|Gender=Masc|Number=Sing	11	obj	_	SpacesAfter=\r\n|TokenRange=179:184
+11	dimovere	dimoveo	VERB	v--pna---	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	TokenRange=186:194
+12	lacertae	lacerta	NOUN	n-s---fd-	Case=Dat|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No|TokenRange=195:203
+13	,	,	PUNCT	u--------	_	18	punct	_	SpacesAfter=\r\n|TokenRange=203:204
+14	et	et	CCONJ	c--------	_	18	cc	_	TokenRange=206:208
+15	corde	cor	NOUN	n-s---nb-	Case=Abl|Gender=Neut|Number=Sing	18	obl	_	TokenRange=209:214
+16	et	et	CCONJ	c--------	_	17	cc	_	TokenRange=215:217
+17	genibus	genu	NOUN	n-p---nb-	Case=Abl|Gender=Neut|Number=Plur	15	conj	_	TokenRange=218:225
+18	tremit	tremo	VERB	v3spia---	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=226:232
+19	.	.	PUNCT	u--------	_	18	punct	_	SpacesAfter=\s\r\n\n|TokenRange=232:233
+
+# newpar
+# sent_id = 3
+# text = Atqui non ego te tigris ut aspera Gaetulusve leo frangere persequor: tandem desine matrem tempestiva sequi viro.
+1	Atqui	atqui	SCONJ	c--------	_	11	mark	_	TokenRange=237:242
+2	non	non	PART	d--------	_	11	advmod:neg	_	TokenRange=243:246
+3	ego	ego	PRON	p-s---mn-	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	TokenRange=247:250
+4	te	tu	PRON	p-s---ma-	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	obj	_	TokenRange=251:253
+5	tigris	tiger	NOUN	a-p---fb-	Case=Abl|Gender=Fem|Number=Plur	11	obl	_	TokenRange=254:260
+6	ut	ut	SCONJ	c--------	_	9	mark	_	TokenRange=261:263
+7	aspera	asper	ADJ	a-p---na-	Case=Acc|Gender=Neut|Number=Plur	5	amod	_	SpacesAfter=No|TokenRange=264:270
+8	Gaetulusve	Gaetulusvus	PROPN	n-s---fb-	Case=Voc|Gender=Masc|Number=Sing	9	nmod	_	TokenRange=272:282
+9	leo	leo	NOUN	n-s---mn-	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	TokenRange=283:286
+10	frangere	frango	VERB	v--pna---	Aspect=Imp|VerbForm=Inf|Voice=Act	11	advcl	_	TokenRange=287:295
+11	persequor	persequor	VERB	v1spid---	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|TokenRange=296:305
+12	:	:	PUNCT	u--------	_	14	punct	_	SpacesAfter=\r\n|TokenRange=305:306
+13	tandem	tandem	ADV	d--------	_	14	advmod	_	TokenRange=308:314
+14	desine	desino	VERB	v2spma---	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	TokenRange=315:321
+15	matrem	mater	NOUN	n-s---fa-	Case=Acc|Gender=Fem|Number=Sing	17	obj	_	SpacesAfter=\r\n|TokenRange=322:328
+16	tempestiva	tempestivus	ADJ	a-s---fb-	Case=Abl|Gender=Fem|Number=Sing	17	advcl	_	TokenRange=330:340
+17	sequi	sequor	VERB	v--pnp---	Aspect=Imp|VerbForm=Inf|Voice=Pass	14	ccomp	_	TokenRange=341:346
+18	viro	vir	NOUN	n-s---md-	Case=Dat|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No|TokenRange=347:351
+19	.	.	PUNCT	u--------	_	11	punct	_	SpacesAfter=\r\n|TokenRange=351:352
+
